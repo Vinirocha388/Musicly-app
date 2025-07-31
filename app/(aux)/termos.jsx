@@ -12,7 +12,7 @@ export default function PrivacyPolicyScreen() {
   const router = useRouter();
 
   const handleAccept = () => {
-    router.push("/login");
+    router.push("/");
   };
 
   return (
